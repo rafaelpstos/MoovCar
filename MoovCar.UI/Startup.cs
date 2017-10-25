@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MoovCar.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace MoovCar.UI
 {
@@ -22,6 +24,9 @@ namespace MoovCar.UI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connection = @"Server=DESKTOP-AOFM6LE\SQLEXPRESS;Database=MoovCarDB;Trusted_Connection=True;";
+            services.AddDbContext<MoovCarContext>(options => options.UseSqlServer(connection));
+
             services.AddMvc();
         }
 

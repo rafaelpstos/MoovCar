@@ -4,10 +4,11 @@ using System.Text;
 
 namespace MoovCar.Domain
 {
-    public class Usuario
+    public class Cliente
     {
-        public int UsuarioID { get; set; }
+        public int ClienteID { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
+        public string CPF { get; set; }
     }
 }
