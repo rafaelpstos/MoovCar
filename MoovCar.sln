@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoovCar.UI", "MoovCar.UI\MoovCar.UI.csproj", "{7A86FAC8-C344-4032-A46E-3F4631DC6A4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoovCar.Domain", "MoovCar.Domain\MoovCar.Domain.csproj", "{8AC0DC76-B4A6-4D6D-8F47-4BD5FE5372C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoovCar.Repository", "MoovCar.Repository\MoovCar.Repository.csproj", "{026C5B3D-16D0-4067-8B8F-875F5D9BA827}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7A86FAC8-C344-4032-A46E-3F4631DC6A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A86FAC8-C344-4032-A46E-3F4631DC6A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A86FAC8-C344-4032-A46E-3F4631DC6A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC0DC76-B4A6-4D6D-8F47-4BD5FE5372C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC0DC76-B4A6-4D6D-8F47-4BD5FE5372C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC0DC76-B4A6-4D6D-8F47-4BD5FE5372C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC0DC76-B4A6-4D6D-8F47-4BD5FE5372C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026C5B3D-16D0-4067-8B8F-875F5D9BA827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026C5B3D-16D0-4067-8B8F-875F5D9BA827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026C5B3D-16D0-4067-8B8F-875F5D9BA827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026C5B3D-16D0-4067-8B8F-875F5D9BA827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
